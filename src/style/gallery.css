@@ -1,5 +1,5 @@
 .container {
-    margin: 100px 20px;
+    margin: 100px 50px;
 }
 .gallery-text > h2 {
     color: black;
@@ -9,9 +9,9 @@
 } 
 .gallery-body {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     justify-content: stretch;
-    gap: 10px;
+    gap: 20px;
 }
 .card {
     background-color: white;

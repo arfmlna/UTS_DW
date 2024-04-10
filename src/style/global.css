@@ -170,9 +170,10 @@ a {
     height: 300px;
 }
 #dialog {
-    font-size: 20px;
+    font-size: 15px;
     position: fixed;
-    margin: 0 auto;
+    padding: 0 auto;
+    margin: 0 20px;
     top: calc(50% - 200px);
 }
 #btn-close {
@@ -251,6 +252,7 @@ td {
     -o-border-radius: 5px;
 }
 .about-text {
+    font-size: 15px;
     text-align: justify;
 }
 .skill {
@@ -368,6 +370,9 @@ footer {
     .skill-content {
         grid-template-columns: 1fr;
         gap: 10px;
+    }
+    #dialog {
+        margin: 0 auto;
     }
 }
 
