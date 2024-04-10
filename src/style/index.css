@@ -1,0 +1,17 @@
+.card {
+    box-shadow: none;
+    margin-bottom: 100px;
+}
+.card-header {
+    text-align: right;
+}
+.card-header > h4 {
+    text-align: center;
+}
+.card:hover {
+    transform: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+}

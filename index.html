@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTS</title>
+    <link rel="shortcut icon" href="src/assets/image/0.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="src/style/global.css"/>
+    <link rel="stylesheet" href="src/style/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="loading" id="loading">
+        <h1 class="text-loading"><span class="load"></span></h1>
+    </div>
+    <nav class="nav">
+        <img class="nav-brand" src="src/assets/image/myfoto.jpg" alt="">
+        <p class="nav-textBrand"><a href="./">ArfMlna</a></p>
+        <div class="mx-auto">
+            <button class="nav-btn">
+                <i class="icon-bars fa-solid fa-bars"></i>
+            </button>
+            <div class="nav-link-mobile" id="nav-link-mobile">
+                <ul class="nav-link-mobile-list">
+                    <li class="nav-mobile-list"><a href="/">Home</a></li>
+                    <li class="nav-mobile-list"><a href="gallery.html">Gallery</a></li>
+                    <li class="nav-mobile-list"><a href="">Contact</a></li>
+                    <li class="nav-mobile-list">
+                        <input type="search" name="search" id="search">
+                        <button class="btn-srch" onclick="alert('belum tersedia')">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-link">
+                <p class="text-navlink">
+                    <a href="" class="nav-anchor">Home</a>
+                </p>
+            </div>
+            <div class="nav-link">
+                <p class="text-navlink">
+                    <a href="gallery.html" class="nav-anchor">Gallery</a>
+                </p>
+            </div>
+            <div class="nav-link">
+                <p class="text-navlink">
+                    <a href="contact.html" class="nav-anchor">Contact</a>
+                </p>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="profile">
+            <img class="profile-image" src="./src/assets/image/myfotonobg.png" alt="profile">
+            <div class="profile-text">
+                <p class="typewriter"></p>
+                <dialog id="dialog">
+                    <div class="card">
+                        <div class="card-header">
+                            <button id="btn-close"><i class="fa-solid fa-xmark"></i></button>
+                        </div>
+                        <table border="2">
+                            <thead>
+                                <tr>
+                                    <th colspan="2">Identitas Diri</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Nama</td>
+                                    <td>Arif Maulana</td>
+                                </tr>
+                                <tr>
+                                    <td>NIM</td>
+                                    <td>C2283207029</td>
+                                </tr>
+                                <tr>
+                                    <td>Tempat Tanggal Lahir</td>
+                                    <td>Tasikmalaya, 28 April 2003</td>
+                                </tr>
+                                <tr>
+                                    <td>Agama</td>
+                                    <td>Islam</td>
+                                </tr>
+                                <tr>
+                                    <td>Jenis Kelamin</td>
+                                    <td>Laki-Laki</td>
+                                </tr>
+                                <tr>
+                                    <td>Hobi</td>
+                                    <td>Bermain Game</td>
+                                </tr>
+                                <tr>
+                                    <td>Alamat</td>
+                                    <td>Tasikmalaya</td>
+                                </tr>
+                                <tr>
+                                    <td>Usia</td>
+                                    <td>20 Tahun</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </dialog>
+                <button class="btn-more" id="btn-more">
+                    More
+                </button>
+            </div>
+        </div>
+        <div class="about">
+            <h2 class="about-title">About</h3>
+            <div class="abouts">
+                <div class="about-image"><img src="src/assets/image/DSC08205A (8).jpg" alt="about-image" class="about-img"></div>
+                <h5 class="about-text">Hi lagi saya Arif Maulana saya tinggal di tasikmalaya. saya merupakan alumni dari SMKN 4 Tasikmalaya dengan jurusan Rekayasa Perangkat Lunak oleh karena itu saya sedikit suka dalam hal percodingan. selain itu saya gemar bermain game tetapi saya tidak suka bermain game yang sedikit kompetitif.</h5>
+                <!-- -->
+            </div>
+        </div>
+        <div class="skill" id="skill">
+            <h2 class="skill-title">Skill</h2>
+            <div class="skill-content">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Web Programing(Front End)</h4>
+                    </div>
+                    <div class="card-body">
+                        <img class="img-card" src="src/assets/image/WebDev.jpeg" alt="foto">
+                    </div>
+                    <div class="cardFooter">
+                        <p style="margin-left: calc(92% - 3%);">92%</p>
+                        <progress max='100' value='92'><progress>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h4>UI/UX</h4>
+                    </div>
+                    <div class="card-body">
+                        <img class="img-card" src="src/assets/image/UIUX.jpg" alt="foto">
+                    </div>
+                    <div class="cardFooter">
+                        <p style="margin-left: calc(76% - 3%);">76%</p>
+                        <progress max='100' value='76'><progress>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Design Grafis</h4>
+                    </div>
+                    <div class="card-body">
+                        <img class="img-card" src="src/assets/image/DesignGrafis.jpg" alt="foto">
+                    </div>
+                    <div class="cardFooter">
+                        <p style="margin-left: calc(69% - 3%)">69%</p>
+                        <progress max='100' value='69'><progress>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <footer>
+        All rights reserved © Copyright 2024, ArfMlna. Created With <i class="fa fa-heart" style="color: pink;"></i> Powered by <a href="https://vercel.com">vercel</a> & <a href="https://www.facebook.com/profile.php?viewas=100000686899395&id=100023891420826">ArfMlna</a>
+    </footer>
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>

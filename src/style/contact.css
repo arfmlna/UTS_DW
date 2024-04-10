@@ -1,0 +1,86 @@
+.container {
+    margin: 100px auto;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    text-align: center;
+}
+
+.text-contact {
+    color: black;
+    text-shadow: 0 0 10px cyan;
+    margin-top: -15px;
+    margin-bottom: 25px;
+}
+
+form {
+    width: 70%;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px black;
+    background-color: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.form > * {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+label, .btn {
+    font-weight: bolder;
+}
+
+input, textarea {
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    border: 1px solid black;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #6ec6ca;
+    color: white;
+    border: 2px solid white;
+    box-shadow: 0 0 10px #6ec6ca;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.btn:hover {
+    background-color: white;
+    border: 2px solid #6ec6ca;
+    color: black;
+}
+
+@media screen and (min-width: 600px) {
+    form {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 840px) {
+    .text-contact {
+        color: white;
+    }
+    form {
+        width: 40%;
+    }
+}
